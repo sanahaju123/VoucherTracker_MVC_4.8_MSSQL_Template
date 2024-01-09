@@ -50,8 +50,8 @@ namespace VoucherTrackerApp.Controllers
 
         public ActionResult EditAsync(int id)
         {
-            Voucher voucher =  _Repository.GetVoucherByID(id);
-            return View(voucher);
+            //write your code here
+            throw new NotImplementedException();
         }
         [HttpPost]
         public ActionResult Edit(Voucher voucher)
